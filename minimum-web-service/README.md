@@ -1,5 +1,7 @@
 # Minimum Web Service Architecture
 
+![minimum-web-service.jpg](../docs/images/minimum-web-service.jpg)
+
 ## Introduction
 
 A frontend template file (frontend_template.yml) and a backend template file (backend_template.yml) are provided. The frontend template file will create a S3 bucket hosting frontend html and related files, frontend distribution, and Route53 frontend record when custom domain is specified. The backend template file will create two EC2 instances hosting RESTAPI service, one RDS instance, an Application Load Balancer, backend distribution, and Route53 backend record when custom domain is specified.
